@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body{
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+
+min-height: 100vh;
+background: url("f2.jpg")
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center/center;
+
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+.noscript {
+width: 100%;
+height: 100vh;
+background-color: rgba($color: #98AFC7, $alpha: 0.8);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.container{
+    width: 900px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 10px;
+    padding: 2rem 2rem;
+    min-height: 200px;
+    form{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 3rem;
+    }
+    h1{
+        font-family:"New Tegomin";
+        color: #98AFC7;
+        font-weight: 400;
+        font-size: 55px;
+    }
+    input,select{
+        width: 30%;
+        height: 30px;
+    }
+    }
